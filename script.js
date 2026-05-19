@@ -80,11 +80,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Typing Effect
     const typingText = document.querySelector('.typing-text');
     const phrases = [
-        "Frontend Developer",
-        "React Specialist",
-        "AI App Builder",
-        "Performance Optimizer"
-    ];
+    "Frontend Developer",
+    "React Developer",
+    "Web Developer",
+    "UI Engineer",
+    "Frontend Engineer",
+    "JavaScript Developer",
+    "Software Developer",
+    "UI Developer"
+];
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
